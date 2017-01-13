@@ -20,6 +20,7 @@ https://www.youtube.com/channel/UCZo6d4zn1x2LCSi5bfNAEYA
 
 Integral Game Console MediaWiki Page
 (Open Soon)
+
 --------------------------------------
 ![integral game console analysis 3](https://cloud.githubusercontent.com/assets/25099776/21938540/2396b9f2-d9ff-11e6-8114-58807434d359.jpg)
 
