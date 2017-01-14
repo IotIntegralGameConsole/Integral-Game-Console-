@@ -1,4 +1,4 @@
-# Integral-Dev-kit
+# Integral-Game-Console
 DIY Custom & IoT Game Console "Integral" - Open Source & Open Hardware  
 
 Open Source Project HeadQuarters Location: Estonia, Tallinn(Coming Soon!!)
