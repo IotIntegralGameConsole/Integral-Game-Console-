@@ -33,6 +33,7 @@ https://www.yoctoproject.org/
 - Support from Various Game Engine
 
 - Compatibility with Various Devices(Mobile, TV, PC, else Device like Arcade Machine)
+
 --------------------------------------
 Integral Game Console IoT Github Page
 https://github.com/IotIntegralGameConsole
