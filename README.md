@@ -11,7 +11,7 @@ Open Source Project HeadQuarters Location: Estonia, Tallinn(Coming Soon!!)
 --------------------------------------
 "Integral" Open Source & Open Hardware Project Licenses
 
-We may follow Dual Licenses. except Main Custom CPU/GPU Module(undecided) based in x86, MIPS, ARM, PowerPC etc, ODD(CD, DVD, Blu-ray etc)(undecided)
+We may follow Dual Licenses. except Main Custom CPU/GPU Module(undecided) based in x86, MIPS, ARM, PowerPC etc, ODD(CD, DVD, Blu-ray etc)(undecided) with MCU Board like Raspberry-Pi, Samsung Artik etc
 
 --------------------------------------
 Character of  "Integral" Game Console
@@ -28,7 +28,7 @@ https://www.yoctoproject.org/
 
 - Integral Firmware Version Development by Forward/Upward or Backward Compatibility  
 
-- Integral GUI
+- Integral Custom GUI & Custom Boot Animation
 
 - Security Program Development
 
