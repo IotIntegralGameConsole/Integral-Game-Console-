@@ -27,7 +27,7 @@ Development Plan
 https://www.yoctoproject.org/
 https://wiki.yoctoproject.org/wiki/Main_Page
 
-- Integral Firmware Version Development by Forward/Upward or Backward Compatibility  
+- Integral Custom Firmware(Software) Development including Patch Version by Forward/Upward or Backward Compatibility  
 
 - Integral Custom GUI & Custom Boot Animation
 
