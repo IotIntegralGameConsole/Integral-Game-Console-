@@ -22,7 +22,7 @@ in the Future, we can make to equipments like 3D Printer Machine in Fab-Lab and 
 --------------------------------------
 
 Development Plan 
-- Target OS(Operating System) for Development: Custom OS by Yocto Project(First OS, Tizen) 
+- Target OS(Operating System) for Development: Custom OS by Yocto Project(First OS, Tizen 3.0) 
 **We follow Yocto Project
 https://www.yoctoproject.org/
 https://wiki.yoctoproject.org/wiki/Main_Page
