@@ -23,8 +23,9 @@ in the Future, we can make to equipments like 3D Printer Machine in Fab-Lab and 
 
 Development Plan 
 - Target OS(Operating System) for Development: Custom OS by Yocto Project(First OS, Tizen 3.0) 
+Tizen - Bsd 3 Clause License Version 
+https://www.tizen.org/bsd-3-clause-license?langredirect=1
 
-Tizen - Bsd 3 Clause License Version https://www.tizen.org/bsd-3-clause-license?langredirect=1
 
 **We follow Yocto Project
 https://www.yoctoproject.org/
