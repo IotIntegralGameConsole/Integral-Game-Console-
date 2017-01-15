@@ -11,7 +11,7 @@ Open Source Project HeadQuarters Location: Estonia, Tallinn(Coming Soon!!)
 --------------------------------------
 "Integral" Open Source & Open Hardware Project Licenses
 
-We may follow Dual Licenses. except Main Custom CPU/GPU Module(undecided) based in x86, MIPS, ARM, PowerPC etc, ODD(CD, DVD, Blu-ray etc)(undecided) with MCU Board like Raspberry-Pi, Samsung Artik etc
+We may follow Dual Licenses. except Main Custom CPU/GPU(FPGA) Module(undecided) based in x86, MIPS, ARM, PowerPC etc, ODD(CD, DVD, Blu-ray etc)(undecided) with MCU Board like Raspberry-Pi, Samsung Artik etc
 
 --------------------------------------
 Character of  "Integral" Game Console
