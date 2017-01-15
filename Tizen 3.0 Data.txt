@@ -1,0 +1,5 @@
+Tizen 3.0 Beta Download
+http://download.tizen.org/releases/milestone/tizen/
+
+Tizen 3.0 Porting Guide
+https://wiki.tizen.org/wiki/Tizen_3.0_Porting_Guide
