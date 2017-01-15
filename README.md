@@ -25,6 +25,7 @@ Development Plan
 - Target OS(Operating System) for Development: Custom OS by Yocto Project(First OS, Tizen) 
 **We follow Yocto Project
 https://www.yoctoproject.org/
+https://wiki.yoctoproject.org/wiki/Main_Page
 
 - Integral Firmware Version Development by Forward/Upward or Backward Compatibility  
 
