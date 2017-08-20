@@ -1,0 +1,929 @@
+INTEL SOFTWARE LICENSE AGREEMENT 
+
+IMPORTANT - READ BEFORE COPYING, INSTALLING OR USING.
+
+Do not use or load this software and any associated materials 
+
+(collectively, the "Software") until you have carefully read the following 
+
+terms and conditions.  By loading or using the Software, you agree to the 
+
+terms of this Agreement.  If you do not wish to so agree, do not install 
+
+or use the Software.
+
+
+* If you are an Original Equipment Manufacturer (OEM), Independent Hardware 
+
+Vendor (IHV), or Independent Software Vendor (ISV), this complete LICENSE 
+
+AGREEMENT applies;
+
+ 
+* If you are an End-User, then only Exhibit A, the INTEL END-USER SOFTWARE 
+
+LICENSE AGREEMENT, applies.
+
+ 
+* The AGP GART Linux kernel patch files, named "agpgart.patch-XXX", where 
+
+XXX is the associated kernel version, when included with this Software, are 
+
+not subject to the terms of this Agreement but are subject to the "GNU 
+
+General Public License Version 2", which may be obtained at the following 
+
+web site:    http://www.gnu.org/licenses/gpl.txt
+
+ 
+
+* The DRM Linux kernel source, when included with this Software, is not 
+
+subject to the terms of this Agreement but are subject to a BSD-like 
+
+license per the following BSD Source License (found in the source header):
+
+ 
+
+ * \author Rickard E. (Rik) Faith <faith@valinux.com>
+
+ * \author Kevin E. Martin <martin@valinux.com>
+
+ * Copyright 1999 Precision Insight, Inc., Cedar Park, Texas.
+
+ * Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California.
+
+ * All Rights Reserved.
+
+ *
+
+ * Permission is hereby granted, free of charge, to any person obtaining 
+
+ * copy of this software and associated documentation files (the 
+
+ * "Software"), to deal in the Software without restriction, including 
+
+ * without limitation the rights to use, copy, modify, merge, publish, 
+
+ * distribute, sublicense, and/or sell copies of the Software, and to 
+
+ * permit persons to whom the Software is furnished to do so, subject to 
+
+ * the following conditions:
+
+ *
+
+ * The above copyright notice and this permission notice (including the 
+
+ * next paragraph) shall be included in all copies or substantial 
+
+ * portions of the Software.
+
+ *
+
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+ * IN NO EVENT SHALL PRECISION INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR 
+
+ * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ 
+
+* The 3DLABS files named "driver/Xorg-xserver-X.X/libGLgn3.so and 
+
+"driver/Xorg-xserver-X.X/libGLgn4.so", which are Copyright (c) 2009, 3DLABS
+
+and included with this Software are not subject to the terms of this Agreement
+
+but are subject to the following license: 
+
+ 
+
+ 
+
+Redistribution and use in source and binary forms, with or without 
+
+modification, are permitted provided that the following conditions are met:
+
+ 
+
+->Redistributions of source code must retain the above copyright notice, this 
+
+list of conditions and the following disclaimer. 
+
+->Redistributions in binary form must reproduce the above copyright notice, 
+
+this list of conditions and the following disclaimer in the documentation 
+
+and/or other materials provided with the distribution. 
+
+->Neither the name Intel Corporation nor the names of its contributors may be 
+
+used to endorse or promote products derived from this software without specific 
+
+prior written permission. 
+
+ 
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
+
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON 
+
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
+
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ 
+
+ 
+
+ 
+
+LICENSE.   This Software is licensed for use only in conjunction with 
+
+Intel component products.  Use of the Software in conjunction with 
+
+non-Intel component products is not licensed hereunder.  Subject to 
+
+the terms of this Agreement, Intel grants to You a nonexclusive, 
+
+nontransferable, worldwide, fully paid-up license under Intel's 
+
+copyrights to:
+
+ 
+
+a) use and copy Software internally for Your own development and 
+
+maintenance purposes; and
+
+ 
+
+b) copy and distribute Software, including derivative works of the 
+
+Software, to Your end-users, but only under a license agreement with 
+
+terms at least as restrictive as those contained in Intel's Final, 
+
+Single User License Agreement, attached as Exhibit A; and
+
+ 
+
+c) copy and distribute the end-user documentation which may accompany 
+
+the Software, but only in association with the Software.
+
+ 
+
+If You are not the final manufacturer or vendor of a computer system 
+
+or software program incorporating the Software, then You may transfer 
+
+a copy of the Software, including derivative works of the Software (and 
+
+related end-user documentation) to Your recipient for use in accordance 
+
+with the terms of this Agreement, provided such recipient agrees to be 
+
+fully bound by the terms hereof.  You shall not otherwise assign, 
+
+sublicense, lease, or in any other way transfer or disclose Software to 
+
+any third party.  You shall not modify or reverse- compile, disassemble 
+
+or otherwise reverse-engineer the Software.
+
+ 
+
+Except as expressly stated in this Agreement, no license or right is 
+
+granted to You directly or by implication, inducement, estoppel or 
+
+otherwise.  Intel shall have the right to inspect or have an independent 
+
+auditor inspect Your relevant records to verify Your compliance with the 
+
+terms and conditions of this Agreement.
+
+ 
+
+CONFIDENTIALITY.   If You wish to have a third party consultant or 
+
+subcontractor ("Contractor") perform work on Your behalf which involves 
+
+access to or use of Software, You shall obtain a written confidentiality 
+
+agreement from the Contractor which contains terms and obligations with 
+
+respect to access to or use of Software no less restrictive than those set 
+
+forth in this Agreement and excluding any distribution rights, and use for 
+
+any other purpose.  Otherwise, You shall not disclose the terms or 
+
+existence of this Agreement or use Intel's name in any publications, 
+
+advertisements, or other announcements without Intel's prior written 
+
+consent.  You do not have any rights to use any Intel trademarks or logos.
+
+ 
+
+OWNERSHIP OF SOFTWARE AND COPYRIGHTS.   Title to all copies of the 
+
+Software remains with Intel or its suppliers.  The Software is 
+
+copyrighted and protected by the laws of the United States and other 
+
+countries, and international treaty provisions.  You may not remove any 
+
+copyright notices from the Software.  Intel may make changes to the 
+
+Software, or to items referenced therein, at any time and without 
+
+notice, but is not obligated to support or update the Software.  Except 
+
+as otherwise expressly provided, Intel grants no express or implied 
+
+right under Intel patents, copyrights, trademarks, or other intellectual 
+
+property rights. You may transfer the Software only if the recipient 
+
+agrees to be fully bound by these terms and if you retain no copies of 
+
+the Software.
+
+ 
+
+LIMITED MEDIA WARRANTY.   If the Software has been delivered by Intel on 
+
+physical media, Intel warrants the media to be free from material 
+
+physical defects for a period of ninety (90) days after delivery by 
+
+Intel.  If such a defect is found, return the media to Intel for 
+
+replacement or alternate delivery of the Software as Intel may select.
+
+ 
+
+EXCLUSION OF OTHER WARRANTIES.   EXCEPT AS PROVIDED ABOVE, THE SOFTWARE 
+
+IS PROVIDED "AS IS" WITHOUT ANY EXPRESS OR IMPLIED WARRANTY OF ANY KIND, 
+
+INCLUDING WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, OR FITNESS FOR 
+
+A PARTICULAR PURPOSE.  Intel does not warrant or assume responsibility 
+
+for the accuracy or completeness of any information, text, graphics, 
+
+links or other items contained within the Software.
+
+ 
+
+ 
+
+LIMITATION OF LIABILITY.   IN NO EVENT SHALL INTEL OR ITS SUPPLIERS BE 
+
+LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, LOST 
+
+PROFITS, BUSINESS INTERRUPTION OR LOST INFORMATION) ARISING OUT OF THE 
+
+USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF INTEL HAS BEEN ADVISED 
+
+OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS PROHIBIT EXCLUSION 
+
+OR LIMITATION OF LIABILITY FOR IMPLIED WARRANTIES OR CONSEQUENTIAL OR 
+
+INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.  YOU 
+
+MAY ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM JURISDICTION TO 
+
+JURISDICTION.
+
+ 
+
+TERMINATION OF THIS AGREEMENT.   Intel may terminate this Agreement at any 
+
+time if you violate its terms.  Upon termination, you will immediately 
+
+destroy the Software or return all copies of the Software to Intel.
+
+ 
+
+APPLICABLE LAWS.   Claims arising under this Agreement shall be governed 
+
+by the laws of Delaware, excluding its principles of conflict of laws 
+
+and the United Nations Convention on Contracts for the Sale of Goods.  
+
+You may not export the Software in violation of applicable export laws 
+
+and regulations.  Intel is not obligated under any other agreements 
+
+unless they are in writing and signed by an authorized representative 
+
+of Intel.
+
+ 
+
+GOVERNMENT RESTRICTED RIGHTS.   The Software is provided with "RESTRICTED 
+
+RIGHTS."  Use, duplication, or disclosure by the Government is subject to 
+
+restrictions as set forth in FAR52.227-14 and DFAR252.227-7013 et seq. or 
+
+their successors.  Use of the Software by the Government constitutes 
+
+acknowledgment of Intel's proprietary rights therein.  Contractor or 
+
+Manufacturer is Intel Corporation, 2200 Mission College Blvd., Santa 
+
+Clara, CA 95052.
+
+ 
+
+Copyright (C) 2005-2006, Intel Corporation.  All rights reserved.
+
+ 
+
+ 
+
+ 
+
+THIRD PARTY SOFTWARE (where applicable)
+
+ 
+
+Copyright 1998-1999 Precision Insight, Inc., Cedar Park, Texas.
+
+Copyright 2000 VA Linux Systems, Inc.
+
+All Rights Reserved.
+
+ 
+
+Permission is hereby granted, free of charge, to any person obtaining a
+
+copy of this software and associated documentation files (the
+
+"Software"), to deal in the Software without restriction, including
+
+without limitation the rights to use, copy, modify, merge, publish,
+
+distribute, sub license, and/or sell copies of the Software, and to
+
+permit persons to whom the Software is furnished to do so, subject to
+
+the following conditions:
+
+ 
+
+The above copyright notice and this permission notice (including the
+
+next paragraph) shall be included in all copies or substantial portions
+
+of the Software.
+
+ 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL PRECISION INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR
+
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ 
+
+ 
+
+ 
+
+EXHIBIT "A"
+
+INTEL END-USER SOFTWARE LICENSE AGREEMENT (Final, Single User)
+
+ 
+
+IMPORTANT - READ BEFORE COPYING, INSTALLING OR USING.
+
+ 
+
+Do not use or load this software and any associated materials 
+
+(collectively, the "Software") until you have carefully read the 
+
+following terms and conditions.  By loading or using the Software, you 
+
+agree to the terms of this Agreement.  If you do not wish to so agree, 
+
+do not install or use the Software.
+
+ 
+
+The AGP GART Linux kernel patch files, named "agpgart.patch-XXX", where 
+
+XXX is the associated kernel version, when included with this Software are 
+
+not subject to the terms of this Agreement but are subject to the "GNU 
+
+General Public License Version 2", which may be obtained at the following 
+
+web site:    http://www.gnu.org/licenses/gpl.txt
+
+ 
+
+The DRM Linux kernel source, when included with this Software, is not 
+
+subject to the terms of this Agreement but are subject to a BSD-like 
+
+license per the following BSD Source License (found in the source header):
+
+ 
+
+ * \author Rickard E. (Rik) Faith <faith@valinux.com>
+
+ * \author Kevin E. Martin <martin@valinux.com>
+
+ * Copyright 1999 Precision Insight, Inc., Cedar Park, Texas.
+
+ * Copyright 2000 VA Linux Systems, Inc., Sunnyvale, California.
+
+ * All Rights Reserved.
+
+ *
+
+ * Permission is hereby granted, free of charge, to any person obtaining 
+
+ * copy of this software and associated documentation files (the 
+
+ * "Software"), to deal in the Software without restriction, including 
+
+ * without limitation the rights to use, copy, modify, merge, publish, 
+
+ * distribute, sublicense, and/or sell copies of the Software, and to 
+
+ * permit persons to whom the Software is furnished to do so, subject to 
+
+ * the following conditions:
+
+ *
+
+ * The above copyright notice and this permission notice (including the 
+
+ * next paragraph) shall be included in all copies or substantial 
+
+ * portions of the Software.
+
+ *
+
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+ * IN NO EVENT SHALL PRECISION INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR 
+
+ * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ 
+
+ 
+
+LICENSE.   You may copy the Software onto a single computer for your 
+
+personal, noncommercial use, and you may make one back-up copy of the 
+
+Software, subject to these conditions:
+
+ 
+
+1. This Software is licensed for use only in conjunction with Intel 
+
+component products.  Use of the Software in conjunction with non-Intel 
+
+component products is not licensed hereunder.
+
+ 
+
+2. You may not copy, modify, rent, sell, distribute or transfer any part 
+
+of the Software except as provided in this Agreement, and you agree to 
+
+prevent unauthorized copying of the Software.
+
+ 
+
+3. You may not reverse engineer, decompile, or disassemble the Software.
+
+ 
+
+4. You may not sublicense or permit simultaneous use of the Software 
+
+by more than one user.
+
+ 
+
+5. The Software may contain the software or other property of third party 
+
+suppliers, some of which may be identified in, and licensed in accordance 
+
+with, any enclosed "license.txt" file or other text or file.
+
+ 
+
+OWNERSHIP OF SOFTWARE AND COPYRIGHTS.   Title to all copies of the Software 
+
+remains with Intel or its suppliers.  The Software is copyrighted and 
+
+protected by the laws of the United States and other countries, and 
+
+international treaty provisions.  You may not remove any copyright notices 
+
+from the Software.  Intel may make changes to the Software, or to items 
+
+referenced therein, at any time without notice, but is not obligated to 
+
+support or update the Software.  Except as otherwise expressly provided, 
+
+Intel grants no express or implied right under Intel patents, copyrights, 
+
+trademarks, or other intellectual property rights.  You may transfer the 
+
+Software only if the recipient agrees to be fully bound by these terms and 
+
+if you retain no copies of the Software.
+
+ 
+
+LIMITED MEDIA WARRANTY.   If the Software has been delivered by Intel on 
+
+physical media, Intel warrants the media to be free from material physical 
+
+defects for a period of ninety (90) days after delivery by Intel.  If such 
+
+a defect is found, return the media to Intel for replacement or alternate 
+
+delivery of the Software as Intel may select.
+
+ 
+
+EXCLUSION OF OTHER WARRANTIES.   EXCEPT AS PROVIDED ABOVE, THE SOFTWARE IS 
+
+PROVIDED "AS IS" WITHOUT ANY EXPRESS OR IMPLIED WARRANTY OF ANY KIND 
+
+INCLUDING WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, OR FITNESS FOR A 
+
+PARTICULAR PURPOSE.  Intel does not warrant or assume responsibility for 
+
+the accuracy or completeness of any information, text, graphics, links or 
+
+other items contained within the Software.
+
+ 
+
+ 
+
+LIMITATION OF LIABILITY.   IN NO EVENT SHALL INTEL OR ITS SUPPLIERS BE 
+
+LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, LOST 
+
+PROFITS, BUSINESS INTERRUPTION, OR LOST INFORMATION) ARISING OUT OF THE 
+
+USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF INTEL HAS BEEN ADVISED 
+
+OF THE POSSIBILITY OF SUCH DAMAGES.  SOME JURISDICTIONS PROHIBIT EXCLUSION 
+
+OR LIMITATION OF LIABILITY FOR IMPLIED WARRANTIES OR CONSEQUENTIAL OR 
+
+INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.  YOU MAY 
+
+ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM JURISDICTION TO JURISDICTION.
+
+ 
+
+TERMINATION OF THIS AGREEMENT.   Intel may terminate this Agreement at any 
+
+time if you violate its terms.  Upon termination, you will immediately 
+
+destroy the Software or return all copies of the Software to Intel.
+
+ 
+
+APPLICABLE LAWS.   Claims arising under this Agreement shall be governed 
+
+by the laws of Delaware, excluding its principles of conflict of laws 
+
+and the United Nations Convention on Contracts for the Sale of Goods.  
+
+You may not export the Software in violation of applicable export laws 
+
+and regulations.  Intel is not obligated under any other agreements unless 
+
+they are in writing and signed by an authorized representative of Intel.
+
+ 
+
+GOVERNMENT RESTRICTED RIGHTS.   The Software is provided with "RESTRICTED 
+
+RIGHTS." Use, duplication, or disclosure by the Government is subject to 
+
+restrictions as set forth in FAR52.227-14 and DFAR252.227-7013 et seq. or 
+
+their successors.  Use of the Software by the Government constitutes 
+
+acknowledgment of Intel's proprietary rights therein.  Contractor or 
+
+Manufacturer is Intel Corporation, 2200 Mission College Blvd., Santa 
+
+Clara, CA 95052.
+
+ 
+
+Copyright (C) 2005-2006, Intel Corporation.  All rights reserved.
+
+ 
+
+ 
+
+ 
+
+THIRD PARTY SOFTWARE (Where applicable)
+
+ 
+
+Copyright 1998-1999 Precision Insight, Inc., Cedar Park, Texas.
+
+Copyright 2000 VA Linux Systems, Inc.
+
+All Rights Reserved.
+
+ 
+
+Permission is hereby granted, free of charge, to any person obtaining a
+
+copy of this software and associated documentation files (the
+
+"Software"), to deal in the Software without restriction, including
+
+without limitation the rights to use, copy, modify, merge, publish,
+
+distribute, sub license, and/or sell copies of the Software, and to
+
+permit persons to whom the Software is furnished to do so, subject to
+
+the following conditions:
+
+ 
+
+The above copyright notice and this permission notice (including the
+
+next paragraph) shall be included in all copies or substantial portions
+
+of the Software.
+
+ 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL PRECISION INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR
+
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+=========================================================================
+
+
+			  BEA Systems, Inc.
+
+		       Binary License Agreement
+
+			    BEA JRockit
+
+
+READ THE TERMS OF THIS AGREEMENT (THE "AGREEMENT") CAREFULLY BEFORE
+DOWNLOADING OR INSTALLING JROCKIT. BY DOWNLOADING OR INSTALLING
+JROCKIT, YOU AGREE TO THE TERMS OF THIS AGREEMENT. INDICATE YOUR
+ACCEPTANCE OF THESE TERMS BY SELECTING THE "ACCEPT" BUTTON AT THE END
+OF THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THESE TERMS, SELECT
+THE "REJECT" BUTTON AT THE END OF THIS AGREEMENT AND THE DOWNLOAD AND
+INSTALLATION PROCESS WILL NOT CONTINUE.
+
+
+1.  License to Use. Subject to the terms and conditions of this
+Agreement, including but not limited to the restrictions set forth in
+Section 4 (Restrictions), below, BEA Systems, Inc. ("BEA") grants you
+a non-exclusive and non-transferable license for the internal use only
+of the accompanying software and documentation provided by BEA for
+JRockit ("JRockit"), including, but not limited to the right to
+reproduce and use JRockit internally for the purpose of designing,
+developing and testing Java applets and applications, and running Java
+applets and applications on JRockit.
+
+2.  License to Distribute. Subject to the terms and conditions of this
+Agreement, and subject to the express condition precedent that you
+first comply with the requirements of Section 3 (Reporting
+Requirements) prior to exercising any rights granted under this
+Section 2, BEA grants you a non-exclusive, non-transferable, limited
+license to reproduce and distribute JRockit in binary form only,
+provided that: (i) you distribute JRockit complete and unmodified,
+(ii) you do not remove or alter any proprietary legends or notices
+contained in or on JRockit, (iii) you only distribute JRockit pursuant
+to a license agreement that protects BEA's and its licensors'
+interests consistent with the terms contained in the Agreement, and
+(iv) you agree to defend and indemnify BEA and its licensors from and
+against any damages, costs, liabilities, settlement amounts and/or
+expenses (including attorneys' fees) incurred in connection with any
+claim, lawsuit or action by any third party that arises or results
+from the use or distribution of JRockit distributed by you,
+
+3.  Reporting Requirements.  Your right to distribute JRockit as
+provided in Section 2, above, is expressly conditioned on your prior
+compliance with the reporting obligations set forth in this Section 3.
+Unless you first comply with these reporting requirements you may not
+distribute JRockit in any manner.  Prior to distributing JRockit in
+accordance with Section 2, you must provide BEA (via e-mail sent to
+jrockit-partner@bea.com) with the following information: (i) your
+name, (ii) place of incorporation or organization if a legal entity
+such as a corporation, partnership or limited liability company, (iii)
+the address of your residence or principal place of business if you
+are a legal entity, (iv) the name of a designated contact person who
+is authorized to receive information related to JRockit on your
+behalf, (v) that designated contact's telephone number, fax number and
+e-mail address, and (vi) your URL if you have one.
+
+4.  Restrictions. JRockit is confidential to BEA and protected by
+Copyright and other bodies of law protecting intellectual property
+rights. Title to JRockit and all associated intellectual property
+rights is retained by BEA and/or its licensors. JRockit includes
+certain JRockit-specific diagnostics and management tools (including,
+but not limited to, the JRockit Runtime Analyzer Tool and the Memory
+Leak Diagnostics feature), and JRockit-specific monitoring and
+management APIs identified in Exhibit A attached to this Agreement
+(collectively "JRockit Management Functions"). You may use such
+JRockit Management Functions and the corresponding data gathered from
+the JRockit Java Virtual Machine through use of such JRockit
+Management Functions solely for purposes of evaluation of such JRockit
+Management Functions.  If you wish to use the JRockit Management
+Functions other than for evaluation purposes, you must obtain a
+separate license to do so from BEA or one of its licensees authorized
+to grant such rights.  Except as specifically authorized in Sections 1
+and 2, above, you may not make copies of JRockit. Unless enforcement
+is prohibited by applicable law, you may not modify, decompile, or
+reverse engineer JRockit. No right, title or interest in or to any
+trademark, service mark, logo or trade name of BEA or its licensors is
+granted under this Agreement.  JRockit is not designed, licensed or
+intended for use in the design, construction, operation or maintenance
+of any nuclear facility, nor may you use it for such purposes.  If the
+version of JRockit you are licensing under this Agreement is a "
+pre-final," "beta," "technology preview," or similar pre-production
+release (collectively, "Pre-final Versions"), you must discontinue
+your use of the Pre-final Version and replace each copy of such
+Pre-Final Version with the successor general availability release as
+soon as it becomes available from BEA. "Pre-final Versions" do not
+include versions of JRockit denominated by BEA as "Limited
+Availability" or "Developer Releases," and use of such releases does
+not require that you upgrade to a subsequent general availability
+release.
+
+5.  Trademarks and Logos. You acknowledge and agree as between you and
+BEA that BEA owns JRockit trademarks and logos and other related brand
+designations ("BEA Marks"), and you have no right to use, or remove or
+efface from JRockit, any of the BEA Marks.  All goodwill associated
+with the BEA Marks inures to BEA's benefit.
+
+6.  DISCLAIMER OF WARRANTY. THE SOFTWARE IS PROVIDED "AS IS," WITHOUT
+WARRANTY.  ALL WARRANTIES, EXPRESS OR IMPLIED, CONDITIONS, AND
+REPRESENTATIONS, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT ARE DISCLAIMED.
+
+7.  Limitation of Liability. In no event will BEA or its Licensors be
+liable for any lost revenue, profits or data, or for special,
+incidental, consequential or other indirect damages, or for punitive
+damages, however caused, regardless of the theory of liability,
+arising out of or related to JRockit or this Agreement, even if BEA
+has been advised of the possibility of such loss. In no event will
+BEA's liability to you, whether in contract, tort (including
+negligence), or otherwise, exceed the amount paid by you for JRockit
+hereunder.
+
+8.  Termination; No Obligation to Support. This Agreement is effective
+until terminated. You may terminate this Agreement at any time by
+destroying all copies of JRockit. Either party may terminate this
+Agreement immediately should JRockit become, or in either party's
+opinion be likely to become, the subject of a claim of infringement of
+any intellectual property right. This Agreement will terminate
+immediately without notice from BEA if you fail to comply with any
+provision of this Agreement. Upon Termination, you must destroy all
+copies of JRockit. BEA may at any time discontinue offering JRockit or
+any particular version thereof, and unless you accept the terms of and
+pay the applicable support fees for a separate BEA JRockit Support
+Addendum, BEA shall have no obligation to provide support, updates,
+patches, bug fixes or other enhancements for JRockit or any particular
+version thereof.
+
+9.  Export Regulations. You may not download or otherwise export or
+re-export JRockit or any underlying information or technology except
+in full compliance with all United States and other applicable laws
+and regulations.  In particular, but without limitation, neither
+JRockit nor the underlying information or technology may be downloaded
+or otherwise exported or re-exported, directly or indirectly, (a) into
+(or to a national or resident of) Cuba, Iran, Iraq, Libya, North
+Korea, Syria or Sudan; (b) to anyone on the US Treasury Department's
+list of Specially Designated Nationals or Other Blocked Persons, the
+US Commerce Department's Denied Parties List, the US Commerce
+Department's Entity List, or the US Commerce Department's Unverified
+List; or (c) to or for any proliferation-related (nuclear weapons,
+missile technology, or chemical/biological weapons) end use.  By
+licensing JRockit, you agree to the foregoing, represent and warrant
+that you are not (x) located in, under the control of, or acting on
+behalf of, or a national or resident of, any such country; (y) on any
+such list; or (z) involved in any such end use.
+
+10.  U.S. Government Restricted Rights. If JRockit is being acquired
+by or on behalf of the U.S. Government or by a U.S. Government
+contractor, then the Government's rights in JRockit and accompanying
+documentation shall be only as set forth in this Agreement in
+accordance with 48 C.F.R. 227.7202-4 (for Department of Defense (DOD)
+acquisitions) and with 48 C.F.R. 2.101 and 12.212 (for non-DOD
+acquisitions).
+
+11.  Governing Law. Any action related to this Agreement will be
+governed by the laws of the United States and the state of
+California. Any legal action in any way arising out of or related to
+JRockit or this Agreement may be brought exclusively in the state of
+federal courts located in San Jose, California.  By accepting this
+Agreement, you are consenting to the exclusive jurisdiction of these
+courts.
+
+12.  Severability. If any provision of this Agreement is held to be
+unlawful or unenforceable, or otherwise invalid, this Agreement will
+remain in effect with the invalid provisions omitted, unless omission
+would frustrate the intent of the parties, in which case this
+Agreement will immediately terminate.
+
+13.  Complete Agreement. This Agreement is the entire agreement
+between you and BEA relating to the subject matter hereof. It
+supersedes all prior or contemporaneous oral or written
+communications, proposals, representations and warranties and prevails
+over any conflicting or additional terms of any quote, order,
+acknowledgment, or other communication between the parties relating to
+its subject matter. No modification of this Agreement will be binding,
+unless in writing and signed by an authorized representative of each
+party.
+
+
+
+
+			      EXHIBIT A
+
+		     JROCKIT MANAGEMENT FUNCTIONS
+
+The JRockit Management Functions identified in Section 4
+(Restrictions) of the Agreement include the following:
+
+JRockit Runtime Analyzer
+ 
+Memory Leak Detector
+
+Code Coverage
