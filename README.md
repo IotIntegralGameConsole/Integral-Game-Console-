@@ -23,6 +23,8 @@ GPU
 AMD GCN Architecture Documents(under Specification License)
 https://developer.amd.com/resources/developer-guides-manuals/
 
+AMD - Yocto
+https://www.yoctoproject.org/members/amd/
 --------------------------------------
 Character of  "Integral" Game Console
 - DIY Custom Module Game Console
