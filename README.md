@@ -51,6 +51,24 @@ https://wiki.yoctoproject.org/wiki/Main_Page
 
 - Compatibility with Various Devices(Mobile, TV, PC, else Device like Arcade Machine)
 
+----------------------------------------
+Support Various OS
+Main OS
+Yocto Project
+
+Else OS
+Tizen
+WebOS
+Fedora
+Montavista
+
+IoT / Cloud
+FreeRTOS
+ARM Mbed OS
+
+Distrowatch - use BSD Linux OS 
+https://distrowatch.com/
+
 --------------------------------------
 Integral Game Console IoT Github Page
 https://github.com/IotIntegralGameConsole
