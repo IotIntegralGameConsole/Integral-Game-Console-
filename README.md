@@ -55,20 +55,29 @@ https://wiki.yoctoproject.org/wiki/Main_Page
 
 ----------------------------------------
 Support Various OS
+
 Main OS
+
 Yocto Project
 
 Else OS
+
 Tizen
+
 WebOS
+
 Fedora
+
 Montavista
 
 IoT / Cloud
+
 FreeRTOS
+
 ARM Mbed OS
 
 Distrowatch - use BSD Linux OS 
+
 https://distrowatch.com/
 
 
