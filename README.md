@@ -45,6 +45,10 @@ http://j-core.org/
 
 *J-core is a clean-room open source processor and SOC design using the SuperH instruction set, implemented in VHDL and available royalty and patent free under a BSD license.
 
+The Open Processor Foundation (OPF) - J-Core
+
+http://0pf.org/
+
 ARM DesignStart (IoT / Cloud Processor Development Based Cortex M0 / Cortex M3)
 https://developer.arm.com/products/designstart
 
@@ -65,8 +69,6 @@ in the Future, we can make to equipments like 3D Printer Machine in Fab-Lab and 
 
 Development Plan 
 - Target OS(Operating System) for Development: Custom OS by Yocto Project(call "Nurgakivi OS")  
-Tizen - Bsd 3 Clause License Version 
-https://www.tizen.org/bsd-3-clause-license?langredirect=1
 
 
 **We follow Yocto Project
@@ -93,6 +95,10 @@ Yocto Project
 Else OS
 
 Tizen
+
+Tizen - Bsd 3 Clause / MIT License Version 
+
+https://www.tizen.org/bsd-3-clause-license?langredirect=1
 
 WebOS
 
