@@ -96,13 +96,13 @@ https://git.yoctoproject.org/
 - Compatibility with Various Devices(Mobile, TV, PC, else Device like Arcade Machine)
 
 ----------------------------------------
-Support Various OS
+[Support Various OS]
 
-Main OS
+[Main OS]
 
-Yocto Project
+Custom OS call "Nurgakivi OS" by Yocto Project
 
-Else OS
+[Else OS]
 
 Tizen
 
@@ -116,11 +116,20 @@ WebOS Open Source Edition - Apache License 2.0
 
 http://webosose.org/
 
-Fedora
 
-Montavista
+Fedora - BSD License
 
-IoT / Cloud
+https://getfedora.org/en/
+
+https://alt.fedoraproject.org/
+
+Montavista - Open Source by 
+
+https://www.mvista.com/
+
+https://www.yoctoproject.org/members/montavista/
+
+[IoT / Cloud]
 
 FreeRTOS - MIT License
 
@@ -133,6 +142,8 @@ https://aws.amazon.com/freertos/?nc1=h_ls
 ARM Mbed OS - Open Source by End User License Agreement (this "EULA")
 
 https://www.mbed.com/en/
+
+[BSD OS]
 
 Distrowatch - use BSD Linux OS 
 
