@@ -120,9 +120,11 @@ FreeRTOS - MIT License
 https://www.freertos.org/
 
 Amazon FreeRTOS - MIT License
+
 https://aws.amazon.com/freertos/?nc1=h_ls
 
 ARM Mbed OS - Open Source by End User License Agreement (this "EULA")
+
 https://www.mbed.com/en/
 
 Distrowatch - use BSD Linux OS 
