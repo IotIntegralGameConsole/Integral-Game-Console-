@@ -124,6 +124,20 @@ https://distrowatch.com/
 
 
 --------------------------------------
+[Open Source VLSI Layout Tool for SoC Design]
+
+Magic VLSI Layout Tool
+
+http://opencircuitdesign.com/magic/
+
+--------------------------------------
+
+[Open Source PCB Design Tool for PCB Design]
+
+http://kicad-pcb.org/
+
+--------------------------------------
+
 Integral Game Console IoT Github Page
 https://github.com/IotIntegralGameConsole
 
