@@ -72,8 +72,12 @@ Development Plan
 
 
 **We follow Yocto Project
+
 https://www.yoctoproject.org/
+
 https://wiki.yoctoproject.org/wiki/Main_Page
+
+https://git.yoctoproject.org/
 
 - Integral Custom Firmware(Software) Development including Patch Version by Forward/Upward or Backward Compatibility  
 
@@ -99,6 +103,8 @@ Tizen
 Tizen - Bsd 3 Clause / MIT License Version 
 
 https://www.tizen.org/bsd-3-clause-license?langredirect=1
+
+https://git.tizen.org/cgit/
 
 WebOS
 
