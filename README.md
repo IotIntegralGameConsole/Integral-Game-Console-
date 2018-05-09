@@ -59,6 +59,7 @@ https://bootlin.com/
 Linux Driver Source Test - Bootlin
 
 https://elixir.bootlin.com/linux/v4.17-rc4/source/drivers/video/hdmi.c
+
 --------------------------------------
 Character of  "Integral" Game Console
 - DIY Custom Module Game Console
@@ -152,6 +153,8 @@ http://opencircuitdesign.com/magic/
 --------------------------------------
 
 [Open Source PCB Design Tool for PCB Design]
+
+KiCad
 
 http://kicad-pcb.org/
 
