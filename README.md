@@ -217,6 +217,15 @@ KiCad
 http://kicad-pcb.org/
 
 --------------------------------------
+
+[Power Supply Design]
+
+Texas Instruments(TI) WEBENCH® Power Designer
+
+http://www.ti.com/design-tools/webench-power-design/power-designer.html
+
+--------------------------------------
+
 [Chip Product`s Symbol and Footprint]
 
 SnapEDA
