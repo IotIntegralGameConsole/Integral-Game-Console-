@@ -225,6 +225,20 @@ https://www.snapeda.com/home/
 
 --------------------------------------
 
+[DIY PCB BY Open Source Hardware]
+
+OSH PARK
+
+https://oshpark.com/
+
+--------------------------------------
+
+[DIY BGA Chip Stencil BY Open Source Hardware]
+
+https://www.oshstencils.com/
+
+--------------------------------------
+
 Integral Game Console IoT Github Page
 https://github.com/IotIntegralGameConsole
 
