@@ -233,6 +233,10 @@ KiCad
 
 http://kicad-pcb.org/
 
+KiCad Libraries
+
+https://kicad.github.io/
+
 --------------------------------------
 
 [Power Supply Design]
