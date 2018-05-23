@@ -1,6 +1,6 @@
 # Integral-Game-Console
 
-Integral Game Console by Nurgakivi Lab., Estonia
+Integral Game Console by Nurgakivi Lab, Estonia
 
 This powered by BSD-3 Clause / MIT License Version Licensed 2018
 
