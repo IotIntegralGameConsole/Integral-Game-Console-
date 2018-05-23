@@ -1,4 +1,9 @@
 # Integral-Game-Console
+
+Integral Game Console by Nurgakivi Lab., Estonia
+
+This powered by BSD-3 Clause / MIT License Version Licensed 2018
+
 DIY Custom & IoT Game Console "Integral" - Open Source & Open Hardware  
 
 Open Source Project HeadQuarters Location: Estonia, Tallinn(Coming Soon!!)
