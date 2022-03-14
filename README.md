@@ -327,4 +327,24 @@ Integral Game Console MediaWiki Page
 
 ![integral game console analysis 2](https://cloud.githubusercontent.com/assets/25099776/21938544/2820d08e-d9ff-11e6-851e-699b890e3a17.jpg)
 
-https://github.com/IotIntegralGameConsole/Integral-Game-Console-/issues/2#issue-1168205727
+<img width="628" alt="Integral-Console Devkit0" src="https://user-images.githubusercontent.com/25099776/158158532-c5fc2538-058f-4979-a115-f7aebf9ac1dd.PNG">
+
+<img width="541" alt="Integral-Console Devkit1" src="https://user-images.githubusercontent.com/25099776/158158535-6c818388-460c-4186-9f49-9d87fad21825.PNG">
+
+<img width="601" alt="Integral-Console Devkit2" src="https://user-images.githubusercontent.com/25099776/158158536-13777117-0c19-44d2-b079-555da45dafd0.PNG">
+
+<img width="522" alt="Integral-Console Devkit3" src="https://user-images.githubusercontent.com/25099776/158158539-22b41c20-b063-479b-b3db-ce4698a311d3.PNG">
+
+<img width="372" alt="Integral-Console Devkit9" src="https://user-images.githubusercontent.com/25099776/158158531-08f1147a-b0f9-41cd-86c9-a1a9c9d67fbf.PNG">
+
+<img width="580" alt="Integral-Console Devkit4" src="https://user-images.githubusercontent.com/25099776/158158541-dbde117c-888b-4c7d-914e-f55eee458651.PNG">
+
+<img width="573" alt="Integral-Console Devkit5" src="https://user-images.githubusercontent.com/25099776/158158543-c49bb7a1-e4c7-4e3d-b54b-1e8f52f7bc6d.PNG">
+
+<img width="583" alt="Integral-Console Devkit6" src="https://user-images.githubusercontent.com/25099776/158158545-9cc17c0b-06f7-4667-ae68-5b5f65db8baa.PNG">
+
+<img width="566" alt="Integral-Console Devkit7" src="https://user-images.githubusercontent.com/25099776/158158522-ef7f6f2b-2402-44d0-ae64-8bc07d1aca86.PNG">
+
+
+
+
