@@ -327,6 +327,10 @@ Integral Game Console MediaWiki Page
 
 ![integral game console analysis 2](https://cloud.githubusercontent.com/assets/25099776/21938544/2820d08e-d9ff-11e6-851e-699b890e3a17.jpg)
 
+--------------------------------------
+
+![Integral-Console Devkit10](https://user-images.githubusercontent.com/25099776/158159406-cd6f317a-2a75-4391-91e9-978f1e97ac31.png)
+
 <img width="628" alt="Integral-Console Devkit0" src="https://user-images.githubusercontent.com/25099776/158158532-c5fc2538-058f-4979-a115-f7aebf9ac1dd.PNG">
 
 <img width="541" alt="Integral-Console Devkit1" src="https://user-images.githubusercontent.com/25099776/158158535-6c818388-460c-4186-9f49-9d87fad21825.PNG">
@@ -345,7 +349,7 @@ Integral Game Console MediaWiki Page
 
 <img width="566" alt="Integral-Console Devkit7" src="https://user-images.githubusercontent.com/25099776/158158522-ef7f6f2b-2402-44d0-ae64-8bc07d1aca86.PNG">
 
-![Integral-Console Devkit10](https://user-images.githubusercontent.com/25099776/158159406-cd6f317a-2a75-4391-91e9-978f1e97ac31.png)
+
 
 
 
